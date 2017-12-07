@@ -1,0 +1,8 @@
+{ 
+    "scheme_name":"Life Stage",
+    "department_name":"Folgers",
+    "category_name":"Coffee",
+    "subcategory_name":null,
+    "bf_interval": "2",
+    "af_interval": "4"
+}

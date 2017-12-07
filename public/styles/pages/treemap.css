@@ -1,0 +1,63 @@
+#chart {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.title {
+    font-family: Lato, "Lucida Grande", Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-user-select: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(242, 113, 37);
+    margin-top: 10px;
+    margin-bottom: 9px;
+    cursor: default;
+}
+text {
+  pointer-events: none;
+}
+
+.tree-map .grandparent text {
+  font-weight: bold;
+}
+
+.tree-map rect {
+  fill: none;
+  stroke: #fff;
+}
+
+.tree-map rect.parent,
+.tree-map .grandparent rect {
+  stroke-width: 2px;
+}
+
+.tree-map rect.parent {
+    pointer-events: none;
+}
+
+.tree-map .grandparent rect {
+  fill: orange;
+}
+
+.tree-map .grandparent:hover rect {
+  fill: #ee9700;
+}
+
+.tree-map .children rect.parent,
+.tree-map .grandparent rect {
+  cursor: pointer;
+}
+
+.tree-map .children rect.parent {
+  fill: #bbb;
+  fill-opacity: .5;
+}
+
+.tree-map .children:hover rect.child {
+  fill: #bbb;
+}
+
+.tree-map .depth text {
+    font-size: 12px;
+}

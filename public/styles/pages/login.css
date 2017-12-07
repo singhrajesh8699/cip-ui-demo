@@ -1,0 +1,18 @@
+.login-tenantlist-image-span img{
+	width: 80px;
+	padding: 10px
+}
+
+.login-tenantlist-tenantname {
+	font-size: 22px;
+	vertical-align: middle;
+}
+
+.login-tenant-table {
+	width: 100%;
+}
+
+.tenant-row-login {
+	background: #fff;
+	height: 50px;
+}

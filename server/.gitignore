@@ -1,0 +1,8 @@
+node_modules/
+node_modules_backup/
+bower_components/
+.DS_Store
+npm-debug.log
+log/app.log
+uploads/
+dist/

@@ -1,0 +1,33 @@
+
+.capitalize{
+	text-transform: uppercase;
+}
+
+table.dataTable.nowrap td {
+	white-space: pre-wrap;
+}
+
+.dataset-grid-cell-duplicate {
+	background-color: #FFAAAA !important;
+	color: #000;
+}
+
+.dataset-grid-cell-whitespaces {
+	background-color: #FFFFC0 !important;
+	color: #000;
+}
+
+.dataset-grid-cell-new {
+	background-color: #CEF4A9 !important;
+	color: #000;
+}
+
+.dataset-grid-cell-updated {
+	background-color: #96acd5 !important;
+	color: #000;
+}
+
+.dataset-grid-cell-merged {
+	background-color: #D5ACCF !important;
+	color: #000;
+}

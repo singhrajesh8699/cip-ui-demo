@@ -1,0 +1,9 @@
+{
+    "filters": [
+      {
+        "field": "Life Stage",
+        "type": "specific",
+        "query": "Mature"
+      }],
+    "groupByField": "Life Stage"
+}

@@ -1,0 +1,12 @@
+{
+	"filters": [
+		{
+			"field": "Age",
+			"type": "range",
+			"min": 20,
+			"max": 30
+		}],
+	"groupByField": "Life Stage"
+}
+
+

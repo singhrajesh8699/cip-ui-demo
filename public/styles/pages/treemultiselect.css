@@ -1,0 +1,11 @@
+div.tree-multiselect {
+    border: 1px solid #e5e6e7;
+    display: table;
+    height: inherit;
+    width: 100%;
+}
+
+div.tree-multiselect input[type=checkbox] {
+  vertical-align: sub;
+  margin: 4px 3px 0;
+}

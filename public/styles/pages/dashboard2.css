@@ -1,0 +1,86 @@
+.dashboard2-header-charts {
+  margin-top: 15px;
+}
+
+.header-heading {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #999;
+}
+
+.header-subheading-1 {
+  font-size: 24px;
+  text-align: right;
+  color: #747070;
+}
+
+.header-subheading-2 {
+  font-size: 20px;
+  text-align: right;
+  color: #747070;
+}
+
+.header-section-headings {
+  margin-top: 5px;
+  padding: 0px 15px;
+}
+
+.middle-section-subheading-1 {
+  font-size: 24px;
+  color: #747070;
+}
+
+.middle-sub-component-section-sucess {
+  border: 1px solid #ccc;
+  border-top: 5px solid #1ab394;
+}
+
+.middle-sub-component-section-failure {
+  border: 1px solid #ccc;
+  border-top: 5px solid #ed5565;
+}
+
+.dashboard2-footer-component {
+  /*margin-top: 23px;*/
+  margin-bottom: 50px;
+}
+
+.footer-sub-component .ibox-content {
+    min-height: 350px;
+}
+
+.middle-sub-component .widget {
+    min-height: 200px;
+}
+
+.middle-sub-component .ibox-content {
+    min-height: 120px;
+}
+
+.header-sub-chart .ibox-content {
+    min-height: 260px;
+}
+
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+      width: 20%;
+      float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+      width: 20%;
+      float: left;
+  }
+}

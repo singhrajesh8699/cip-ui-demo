@@ -1,0 +1,15 @@
+{
+  "name": "Customer Group 1",
+  "description": "This is description for Customer Group 1",
+  "filters": [
+    {
+     "field": "Age",
+     "type": "range",
+     "min": 20,
+     "max": 30
+    }
+  ],
+  "groupByField": "Life Stage"
+}
+
+

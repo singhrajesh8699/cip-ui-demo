@@ -1,0 +1,21 @@
+
+// Query with a basic filter
+curl -H "Content-Type: application/json" --data @c360-1.json http://localhost:8080/dataxylo/v1/customergroups/query
+
+// Create a Customer Group with a basic filter
+curl -H "Content-Type: application/json" --data @c360-creategroup-1.json http://localhost:8080/dataxylo/v1/customergroups
+
+// Get Customer Groups
+curl http://localhost:8080/dataxylo/v1/customergroups
+
+// Clusters Info Query 
+curl -H "Content-Type: application/json" --data @cMetrics-clusters.json http://localhost:8080/dataxylo/v1/customergroups/query
+
+// ZyloLens Pricing Query with a basic filter
+curl -H "Content-Type: application/json" --data @zylolens-pricing-1.json http://localhost:8080/dataxylo/v1/spricing/query
+
+// ZyloLens Promotions Query with a basic filter
+curl -H "Content-Type: application/json" --data @zylolens-promotions-1.json http://localhost:8080/dataxylo/v1/promotions/query
+
+// Generate Affinity
+curl http://localhost:8080/dataxylo/v1/generateaffinity

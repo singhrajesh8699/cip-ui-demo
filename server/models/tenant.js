@@ -1,0 +1,17 @@
+'use strict';
+
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema,
+    ObjectId = mongoose.Types.ObjectId;
+
+var fields = {
+  name: String,
+	description: String,
+	logo: String
+};
+
+var options = {timestamps: true};
+
+var TenantSchema = new Schema(fields, options);
+
+module.exports = mongoose.model('Tenant', TenantSchema);

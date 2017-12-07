@@ -1,0 +1,46 @@
+
+export const customers = [{
+    "first_name" : "Mark",
+    "last_name" : "Otto",
+    "dob" : "12-10-1978",
+    "gender" : "Male",
+    "phone" : "(562) 688-5438",
+    "profile_img" : "https:randomuser.me/api/portraits/men/67.jpg",
+    "profile_img_small" : "https:randomuser.me/api/portraits/med/men/67.jpg",
+    "income" : 500000.0,
+    "address" : "London",
+    "email" : "mark@gmail.com",
+    "fb" : true,
+    "twitter" : false,
+    "linkedin" : true
+},
+{
+    "first_name" : "Anna",
+    "last_name" : "Thornton",
+    "dob" : "23-4-1980",
+    "gender" : "Female",
+    "phone" : "(562) 688-5128",
+    "profile_img" : "https:randomuser.me/api/portraits/women/81.jpg",
+    "profile_img_small" : "https:randomuser.me/api/portraits/med/women/81.jpg",
+    "income" : 3400000.0,
+    "address" : "new York",
+    "email" : "anna@gmail.com",
+    "fb" : true,
+    "twitter" : true,
+    "linkedin" : true
+},
+{
+    "first_name" : "Larry",
+    "last_name" : "johnson",
+    "dob" : "29-6-1982",
+    "gender" : "Male",
+    "phone" : "(562) 688-6666",
+    "profile_img" : "https:randomuser.me/api/portraits/men/97.jpg",
+    "profile_img_small" : "https:randomuser.me/api/portraits/med/men/97.jpg",
+    "income" : 2500000.0,
+    "address" : "new York",
+    "email" : "anna@gmail.com",
+    "fb" : true,
+    "twitter" : true,
+    "linkedin" : false
+}];
